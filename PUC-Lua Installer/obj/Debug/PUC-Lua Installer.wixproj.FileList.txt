@@ -1,0 +1,7 @@
+C:\Users\russh\git\PUC-Lua-Installer\PUC-Lua Installer\bin\Debug\PUC-Lua Installer.msi
+C:\Users\russh\git\PUC-Lua-Installer\PUC-Lua Installer\bin\Debug\PUC-Lua Installer.wixpdb
+obj\\Debug\Files.wixobj
+obj\\Debug\Setup.wixobj
+obj\\Debug\PUC-Lua Installer.wixproj.BindContentsFileListnull.txt
+obj\\Debug\PUC-Lua Installer.wixproj.BindOutputsFileListnull.txt
+obj\\Debug\PUC-Lua Installer.wixproj.BindBuiltOutputsFileListnull.txt

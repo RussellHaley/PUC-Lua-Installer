@@ -1,0 +1,2 @@
+C:\Users\russh\git\PUC-Lua-Installer\PUC-Lua Installer\bin\Debug\PUC-Lua Installer.msi
+C:\Users\russh\git\PUC-Lua-Installer\PUC-Lua Installer\bin\Debug\PUC-Lua Installer.wixpdb

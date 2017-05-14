@@ -1,0 +1,75 @@
+<Component Id="lapi.h" Guid="6e6f8bb5-e4f5-4fa6-a4d1-fa21bdcfc014">
+    <File Id="lapi.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lapi.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lauxlib.h" Guid="04f58873-45aa-42c2-8bba-a4486cec337e">
+    <File Id="lauxlib.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lauxlib.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lcode.h" Guid="83b65adf-a17c-4380-b8cb-dd040fbe2105">
+    <File Id="lcode.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lcode.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lctype.h" Guid="7a6eeefa-1156-42af-b086-3b93b28ea77a">
+    <File Id="lctype.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lctype.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="ldebug.h" Guid="0a791980-0659-42a5-bb2d-3f3abc179f59">
+    <File Id="ldebug.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\ldebug.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="ldo.h" Guid="280b0d27-fe92-46d4-839d-38642b6e99ac">
+    <File Id="ldo.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\ldo.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lfunc.h" Guid="c802c9bc-744c-4dac-adc0-65fa8e97b2f8">
+    <File Id="lfunc.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lfunc.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lgc.h" Guid="e6657c14-98c6-43be-bd88-a5293faa29e1">
+    <File Id="lgc.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lgc.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="llex.h" Guid="defe4bd2-bbf6-42a3-a064-7b23e2081b4d">
+    <File Id="llex.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\llex.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="llimits.h" Guid="9f1f1d73-282d-47d7-85e2-6f46d8e730f2">
+    <File Id="llimits.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\llimits.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lmem.h" Guid="df4fa623-1d0a-40c0-b832-c6cafe35e591">
+    <File Id="lmem.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lmem.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lobject.h" Guid="22e4139e-8cb4-4d4d-9ba5-239c66d6c5f5">
+    <File Id="lobject.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lobject.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lopcodes.h" Guid="7707d011-11e5-4bf1-a4fa-328cff66cb56">
+    <File Id="lopcodes.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lopcodes.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lparser.h" Guid="871d07e5-b5d6-45af-88c7-3cd0fa53822a">
+    <File Id="lparser.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lparser.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lprefix.h" Guid="777d82c5-d6bf-4c49-b705-b4077998c122">
+    <File Id="lprefix.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lprefix.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lstate.h" Guid="f59770a8-186c-4d5e-a861-ea425c3bfa01">
+    <File Id="lstate.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lstate.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lstring.h" Guid="29983294-81cb-434e-9843-a7faed08cee5">
+    <File Id="lstring.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lstring.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="ltable.h" Guid="237fe9a2-59a1-4186-9d9b-f5095c9823a7">
+    <File Id="ltable.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\ltable.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="ltm.h" Guid="cb639507-474d-4d91-a9cf-5b31cf4a3b6d">
+    <File Id="ltm.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\ltm.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lua.h" Guid="f27635a2-3070-49d3-837c-11cc88b8052e">
+    <File Id="lua.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lua.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="luaconf.h" Guid="af4c1f5d-3894-4cd9-959c-1985d3a30373">
+    <File Id="luaconf.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\luaconf.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lualib.h" Guid="396a1940-f53a-43c8-9065-abf37a983bc7">
+    <File Id="lualib.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lualib.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lundump.h" Guid="af3b80f6-62ca-4d67-844d-416a6f11525c">
+    <File Id="lundump.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lundump.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lvm.h" Guid="859bf0c3-ff0c-4cb2-a879-e7642fcf29e0">
+    <File Id="lvm.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lvm.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lzio.h" Guid="fe99acc3-f221-4cfe-91ac-f88fa3c08d14">
+    <File Id="lzio.h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lzio.h" KeyPath="yes" Checksum="yes"/>
+</Component>

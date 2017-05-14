@@ -1,0 +1,3 @@
+<ComponentRef Id="lua.exe"/>
+<ComponentRef Id="lua53.dll"/>
+<ComponentRef Id="luac.exe"/>
