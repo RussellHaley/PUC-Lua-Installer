@@ -31,18 +31,6 @@
    Show-Calendar -HighlightDay (1..10 + 22) -HighlightDate "December 25, 2008"
 #>
 
-$luaReplacements = @{
-"%version%" = "Olympia"; 
-"%bindir%" = "Salem"; 
-"%luaincludedir%" = "Sacramento";
-"%luasourcedir%" = ""}
-
-$luaRocksReplacements = @{
-"%version%"= "";
-"%installdir%"="";
-"%luadir%"="";
-"%toolsdir%"="";
-}
 
 function Generate-WixItems { param(
     [string] $sourceDir,
