@@ -4,9 +4,11 @@
 		<DirectoryRef Id="TARGETDIR">
 			<Directory Id="ProgramFilesFolder" Name="PUC-Lua">
 				<Directory Id="INSTALLDIR" Name="PUC-Lua">
-					<Directory Id="LUABINDIR" Name="bin"/>
-					<Directory Id="LUAINCLUDEDIR" Name="include"/>
-					<Directory Id="LUASOURCEDIR" Name="src"/>
+					<Directory Id="LUAVERSIONDIR" Name="%version$">
+						<Directory Id="LUABINDIR" Name="bin"/>
+						<Directory Id="LUAINCLUDEDIR" Name="include"/>
+						<Directory Id="LUASOURCEDIR" Name="src"/>
+					</Directory>
 				</Directory>
 			</Directory>
 			 <Directory Id="ProgramMenuFolder">

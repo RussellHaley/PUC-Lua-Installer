@@ -1,3 +1,0 @@
-﻿{lua.exe="785d017b-5a65-406c-a1fb-79fab7a7e64c",source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\bin64"},
-{lua53.dll="35e2bcd6-8cdc-4aad-873c-365fa0269200",source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\bin64"},
-{luac.exe="85d332b0-b4bd-47e2-8bc8-6066723ece92",source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\bin64"},
