@@ -15,7 +15,7 @@ Visual Studio 2008+ (Not Tested)
 OR
 MonoDevelop (Not Tested)
 
-*Note - If you are using the optional IDEs noted above, your version of the framework can be higher. For more information see:
+*Note* - If you are using the optional IDEs noted above, your version of the framework can be higher. For more information see:
 https://social.msdn.microsoft.com/Forums/windowsapps/en-US/23a7dc5d-c337-4eed-8af4-c016def5516e/location-of-msbuildexe?forum=msbuild 
 
 First, clone this repo. I have git installed to run from powershell:
@@ -43,11 +43,13 @@ You will need 7-Zip to extract the archive.
 #1 Navigate to the dir and source the powershell script. This loads the script for execution.
 cd C:\Users\russh\git\PUC-Lua-Installer\Base-Files
 . .\pli-tools.ps1
+
 #2 Execute the Create-LuaInstaller funtion loaded by the script. 
 Create-LuaInstaller -version "5.3.4" `
 -sourceLocation "C:\Users\russh\Downloads\lua-sources\src\" `
 -bin32Location  "C:\Users\russh\Downloads\lua-5.3.4\src\bin\" `
 -outDir $PWD..\Puc-Lua32 
+
 #3 Move to the main install builder and execute MS Build, which assembles the package.
 #  On a 32 bit machine use C:\Windows\Microsoft.Net\Framework\v3.5\MSBuild.exe
 cd ..\"PUC-Lua 32"
