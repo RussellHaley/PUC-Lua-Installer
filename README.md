@@ -1,4 +1,5 @@
- PUC-Lua Installer v1.1 (MinGW Build)
+
+PUC-Lua Installer v1.1 (MinGW Build)
 
 This project is an open source Windows installer for 32 Lua. 
 
@@ -19,10 +20,12 @@ MonoDevelop (Not Tested)
 https://social.msdn.microsoft.com/Forums/windowsapps/en-US/23a7dc5d-c337-4eed-8af4-c016def5516e/location-of-msbuildexe?forum=msbuild*
 
 First, clone this repo. I have git installed to run from powershell:
+
+```
 mkdir ~/git
 cd ~/git
 git clone https://github.com/russellhaley/puc-lua-installer
-
+```
 
 To build the MSI, there are two main steps: Download the target items, and execute the commands.
 
