@@ -1,4 +1,4 @@
-####PUC-Lua Installer v1.1 (MinGW Build)
+# PUC-Lua Installer v1.1 (MinGW Build)
 
 This project is an open source Windows installer for 32 Lua. 
 
@@ -28,9 +28,8 @@ To build the MSI, there are two main steps: Download the target items, and execu
 
 1) Download and extract the binaries and the sources. From Archives:
 
-JoeDFs Binaries:
-https://github.com/joedf/LuaBuilds/tree/gh-pages/PrivateBuild/builds/lua-X.X.X/x86 - Where X.X.X is a version number
-example> https://github.com/joedf/LuaBuilds/tree/gh-pages/PrivateBuild/builds/lua-5.3.4/x86
+JoeDFs Binaries (replacing 5.3.4 with the desired version number):
+ https://github.com/joedf/LuaBuilds/tree/gh-pages/PrivateBuild/builds/lua-5.3.4/x86
 
 Lua Sources: https://www.lua.org/ftp/
 You will need 7-Zip to extract the archive. 
@@ -38,31 +37,25 @@ You will need 7-Zip to extract the archive.
 *Note*: Alternatively, you could clone joedf/LuaBuilds and it gives you access to all the binaries and all the sources in one place. The over head is a bit extreme but I'm a lazy sod. That's why I created an installer ;)
 
 
-2) Run the following commands in powershell (do not type the #Number items):
+2) Run the following commands in powershell (Note that # is a comment in powershell):
 
 ```
-####1 
+#1 Navigate to the dir and source the powershell script. This loads the script for execution.
 cd C:\Users\russh\git\PUC-Lua-Installer\Base-Files
 . .\pli-tools.ps1
-####2
+#2 Execute the Create-LuaInstaller funtion loaded by the script. 
 Create-LuaInstaller -version "5.3.4" `
 -sourceLocation "C:\Users\russh\Downloads\lua-sources\src\" `
 -bin32Location  "C:\Users\russh\Downloads\lua-5.3.4\src\bin\" `
 -outDir $PWD..\Puc-Lua32 
-####3
+#3 Move to the main install builder and execute MS Build, which assembles the package.
+#  On a 32 bit machine use C:\Windows\Microsoft.Net\Framework\v3.5\MSBuild.exe
 cd ..\"PUC-Lua 32"
-C:\Windows\Microsoft.Net\Framework64\v3.5\MSBuild.exe #On a 32 bit machine use C:\Windows\Microsoft.Net\Framework\v3.5\MSBuild.exe
+C:\Windows\Microsoft.Net\Framework64\v3.5\MSBuild.exe 
+
 ```
 
 Adjusting version, sourceLocation and bin32Location to suite your downloads. You will recieve one warning; two if using the 32 bit build tools. Neither seemingly affect the output. 
-
-Explaination:
-###1
-Navigate to the dir and source the powershell script. This loads the script for execution.
-###2
-Execute the Create-LuaInstaller funtion loaded by the script. 
-###3
-Move to the main install builder and execute MS Build, which assembles the package. 
 
 The output will be under ...\PUC-Lua-Installer\PUC-Lua 32\bin
 	
