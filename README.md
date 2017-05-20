@@ -39,7 +39,7 @@ You will need 7-Zip to extract the archive.
 *Note: Alternatively, you could clone joedf/LuaBuilds and it gives you access to all the binaries and all the sources in one place. The over head is a bit extreme but I'm a lazy sod. That's why I created an installer ;)*
 
 
-2) Run the following commands in powershell (Note that # is a comment in powershell):
+2) Run the following commands in powershell (Note that # is a comment in powershell, '`' backtick is a line continuation):
 
 ```
 #1 Navigate to the dir and source the powershell script. This loads the script for execution.
