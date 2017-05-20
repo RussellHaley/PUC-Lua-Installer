@@ -1,4 +1,4 @@
-# PUC-Lua Installer v1.1 (MinGW Build)
+ PUC-Lua Installer v1.1 (MinGW Build)
 
 This project is an open source Windows installer for 32 Lua. 
 
@@ -15,7 +15,7 @@ Visual Studio 2008+ (Not Tested)
 OR
 MonoDevelop (Not Tested)
 
-* Note: If you are using the optional IDEs noted above, your version of the framework can be higher. For more information see:
+*Note: If you are using the optional IDEs noted above, your version of the framework can be higher. For more information see:
 https://social.msdn.microsoft.com/Forums/windowsapps/en-US/23a7dc5d-c337-4eed-8af4-c016def5516e/location-of-msbuildexe?forum=msbuild*
 
 First, clone this repo. I have git installed to run from powershell:
@@ -34,7 +34,7 @@ JoeDFs Binaries (replacing 5.3.4 with the desired version number):
 Lua Sources: https://www.lua.org/ftp/
 You will need 7-Zip to extract the archive. 
 
-* Note: Alternatively, you could clone joedf/LuaBuilds and it gives you access to all the binaries and all the sources in one place. The over head is a bit extreme but I'm a lazy sod. That's why I created an installer ;)*
+*Note: Alternatively, you could clone joedf/LuaBuilds and it gives you access to all the binaries and all the sources in one place. The over head is a bit extreme but I'm a lazy sod. That's why I created an installer ;)*
 
 
 2) Run the following commands in powershell (Note that # is a comment in powershell):
