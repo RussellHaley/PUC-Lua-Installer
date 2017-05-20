@@ -18,7 +18,7 @@
 		-->
 		<Media Id="1" Cabinet="contents.cab" EmbedCab="yes" CompressionLevel="high"/>
 		
-		<Icon Id="icon.ico" SourceFile="%ico_file%"/>
+		<Icon Id="icon.ico" SourceFile="../Icon_1.ico"/>
 		<Property Id="ARPPRODUCTICON" Value="icon.ico" />
 		
 		<!-- Installation directory and files are defined in Files.wxs -->
@@ -33,10 +33,12 @@
 			<Feature Id="Include" Title="Lua Header Files" Level="1">
 				%include_feature%
 			</Feature>
-			
-			<Feature Id="Binary64" Title="Lua 64 bit Binary Files" Level="1">
-				%binary64_feature%
-				<ComponentRef Id="ApplicationShortcut"/>
+					
+			<Feature Id="Binary32" Title="Lua 32 Bit Binary Files" Level="1">
+				%binary32_feature%
+				<ComponentRef Id="libgcc_s_dw2_1.dll"/>
+				<ComponentRef Id="set_path"/>
+				<ComponentRef Id="ApplicationShortcut32"/>		
 			</Feature>
 		</Feature>
 

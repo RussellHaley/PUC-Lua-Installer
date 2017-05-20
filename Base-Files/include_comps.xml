@@ -1,0 +1,15 @@
+<Component Id="lua.h_h" Guid="96cd3f2f-cf2f-4b7d-8581-4065e8dc4f2d">
+    <File Id="lua.h_h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lua.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lualib.h_h" Guid="d5073c5b-defa-4c0e-93a2-11b9dd1b94f2">
+    <File Id="lualib.h_h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lualib.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lauxlib.h_h" Guid="83d79c50-82e5-4a5f-9f82-51ddcdd03f5a">
+    <File Id="lauxlib.h_h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lauxlib.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="luaconf.h_h" Guid="9d545094-b1f9-48a6-9dd3-9ecca77a3f37">
+    <File Id="luaconf.h_h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\luaconf.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lua.hpp_h" Guid="73952c63-e78d-491e-bc26-27565ab21c4e">
+    <File Id="lua.hpp_h" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\lua.hpp" KeyPath="yes" Checksum="yes"/>
+</Component>

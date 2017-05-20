@@ -1,2 +1,0 @@
-C:\Users\russh\Documents\SharpDevelop Projects\PUC-Lua Installer\PUC-Lua Installer\bin\Debug\PUC-Lua Installer.msi
-C:\Users\russh\Documents\SharpDevelop Projects\PUC-Lua Installer\PUC-Lua Installer\bin\Debug\PUC-Lua Installer.wixpdb

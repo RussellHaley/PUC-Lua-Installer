@@ -19,34 +19,31 @@
   Output directory for installer AND intermediary files for debugging
 
  .Example
-   # Show a default display of this month.
-   Show-Calendar
-
- .Example
-   # Display a date range.
-   Show-Calendar -Start "March, 2010" -End "May, 2010"
-
- .Example
-   # Highlight a range of days.
-   Show-Calendar -HighlightDay (1..10 + 22) -HighlightDate "December 25, 2008"
+  
 #>
 
 
 function Generate-WixItems { param(
     [string] $sourceDir,
     [string] $filter,
+    [string[]] $include,
     [string] $writeDir,
     [string] $componentFile,
-    [string] $compRefFile
+    [string] $compRefFile,
+    [string] $appendToName="",
+    [boolean] $removePrevious=$true
     )
 
     $compPath = Join-Path $writeDir $componentFile
     $comRefPath = Join-Path $writeDir $compRefFile 
     
-    rm $compPath
-    rm $comRefPath
+    if($removePrevious)
+    {
+        rm $compPath
+        rm $comRefPath
+    }
 
-    Get-ChildItem $sourceDir -Filter $filter | 
+    Get-ChildItem $sourceDir -Filter $filter -File |
         Foreach-Object {
             #$content = Get-Content $_.FullName
 
@@ -56,12 +53,13 @@ function Generate-WixItems { param(
            $Id = [GUID]::NewGuid()
            #echo $Id
    
+           $name = $_.Name + $appendToName
    
-           $comp = '<Component Id="' + $_.Name + '" Guid="' + $Id + '">'
+           $comp = '<Component Id="' + $name + '" Guid="' + $Id + '">'
    
-           $file = '    <File Id="' + $_.Name + '" Source="' + $_.FullName + '" KeyPath="yes" Checksum="yes"/>'
+           $file = '    <File Id="' + $name + '" Source="' + $_.FullName + '" KeyPath="yes" Checksum="yes"/>'
            $endcomp = '</Component>'
-           $compRef = '<ComponentRef Id="' + $_.Name + '"/>' 
+           $compRef = '<ComponentRef Id="' + $name + '"/>' 
 
            #echo $comp
            #echo $file
@@ -110,34 +108,34 @@ function Create-LuaRocksFiles_wxs{}
 function Create-LuaInstaller{
 param(
     [string] $sourceLocation,
-    [string] $bin64Location = "",
     [string] $bin32Location = "",
     [string] $version = "1.0.0",
     [string] $outDir
     )
-     
-    if($bin64Location -eq "")
-    {
-        $bin64Location = Join-Path $sourceLocation "bin64"
-    }
+
     
     if($bin32Location -eq "")
     {
-        $bin32Location = Join-Path $sourceLocation "bin32"
+        $bin32Location = Join-Path $sourceLocation "bin"
     }
 
-    Generate-WixItems -sourceDir $sourceLocation -filter "*.*" -writeDir $outDir  -componentFile "source_comps.xml" -compRefFile "source_comprefs.xml"
-    Generate-WixItems -sourceDir $sourceLocation -filter "*.h" -writeDir $outDir  -componentFile "include_comps.xml" -compRefFile "include_comprefs.xml"
-    Generate-WixItems -sourceDir $bin64Location -filter "*.*" -writeDir $outDir  -componentFile "binary64_comps.xml" -compRefFile "binary64_comprefs.xml"
-    #Generate-WixItems -sourceDir $bin32Location -filter "*.*" -writeDir $outDir  -componentFile "binary32_comps.xml" -compRefFile "binary32_comprefs.xml"
+    Generate-WixItems -sourceDir $sourceLocation -filter "*.*" -writeDir $outDir  -componentFile "source_comps.xml" -compRefFile "source_comprefs.xml"    
+     Generate-WixItems -sourceDir $bin32Location -filter "*.*" -writeDir $outDir  -componentFile "binary32_comps.xml" -compRefFile "binary32_comprefs.xml" -appendToName "_32"
+
+    #Hard to specify multiple items.     
+    Generate-WixItems -sourceDir $sourceLocation -filter "lua.h" -removePrevious $true -writeDir $outDir  -componentFile "include_comps.xml" -compRefFile "include_comprefs.xml" -appendToName "_h"
+    Generate-WixItems -sourceDir $sourceLocation -filter "lualib.h" -removePrevious $false -writeDir $outDir  -componentFile "include_comps.xml" -compRefFile "include_comprefs.xml" -appendToName "_h"
+    Generate-WixItems -sourceDir $sourceLocation -filter "lauxlib.h" -removePrevious $false -writeDir $outDir  -componentFile "include_comps.xml" -compRefFile "include_comprefs.xml" -appendToName "_h"
+    Generate-WixItems -sourceDir $sourceLocation -filter "luaconf.h" -removePrevious $false -writeDir $outDir  -componentFile "include_comps.xml" -compRefFile "include_comprefs.xml" -appendToName "_h"
+    Generate-WixItems -sourceDir $sourceLocation -filter "lua.hpp" -removePrevious $false -writeDir $outDir  -componentFile "include_comps.xml" -compRefFile "include_comprefs.xml" -appendToName "_h"
+    
 
     $tmp = Join-Path $outDir "source_comps.xml"
     $content = Get-Content $tmp
 
     $luaFileReplacements = @{
         "%version%" = $version; 
-        "%binary64_dir%" = Get-Content (Join-Path $outDir "binary64_comps.xml");
-        #"%binary32_dir%" = Get-Content (Join-Path $outDir "binary32_comps.xml");
+        "%binary32_dir%" = Get-Content (Join-Path $outDir "binary32_comps.xml");
         "%luainclude_dir%" = Get-Content (Join-Path $outDir "include_comps.xml");
         "%luasource_dir%" = Get-Content (Join-Path $outDir "source_comps.xml");
     }
@@ -146,15 +144,19 @@ param(
         "%version%"=$version; 
         "%source_feature%" =  Get-Content (Join-Path $outDir "source_comprefs.xml");
         "%include_feature%"= Get-Content (Join-Path $outDir "include_comprefs.xml");
-        "%binary64_feature%" = Get-Content (Join-Path $outDir "binary64_comprefs.xml");
-        #"%binary32_feature%" = Get-Content (Join-Path $outDir "binary32_comprefs.xml");
+        "%binary32_feature%" = Get-Content (Join-Path $outDir "binary32_comprefs.xml");
     }
 
     #$luaFileReplacements
     #$luaSetupReplacements
 
-    Find-And-Replace -filePath "Files-Template.wxs" -replacements $luaFileReplacements -outputFile "Filetest.wxs"
-    Find-And-Replace -filePath "Setup-Template.wxs" -replacements $luaSetupReplacements -outputFile "Setuptest.wxs"
+    rm "..\PUC-Lua 32\Files.wxs"
+    rm "..\PUC-Lua 32\Setup.wxs"
+
+    $proj32Dir = ""
+
+    Find-And-Replace -filePath "Files-Template32.wxs" -replacements $luaFileReplacements -outputFile "..\PUC-Lua 32\Files.wxs"
+    Find-And-Replace -filePath "Setup-Template32.wxs" -replacements $luaSetupReplacements -outputFile "..\PUC-Lua 32\Setup.wxs"
 
     echo "Processing Complete." 
 }
