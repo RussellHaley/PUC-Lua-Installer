@@ -26,9 +26,8 @@
     <Compile Include="Setup.wxs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="license.rtf" />
     <Content Include="PUC-Lua-Banner.png" />
-    <Content Include="PUC-Lua-Installer-Image.png" />
+    <Content Include="PUC-Lua-Installer-Image-Gray.png" />
     <Content Include="Puc-Lua-MIT-License.rtf" />
   </ItemGroup>
   <ItemGroup>
