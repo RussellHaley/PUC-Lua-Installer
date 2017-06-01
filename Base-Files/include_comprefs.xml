@@ -1,5 +1,0 @@
-<ComponentRef Id="lua.h_h"/>
-<ComponentRef Id="lualib.h_h"/>
-<ComponentRef Id="lauxlib.h_h"/>
-<ComponentRef Id="luaconf.h_h"/>
-<ComponentRef Id="lua.hpp_h"/>

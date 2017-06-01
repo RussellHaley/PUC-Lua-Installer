@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA7894D2-2C0F-4133-96AF-F0CD65E0324E}"
+	ProjectSection(SolutionItems) = preProject
+		Icon_1.ico = Icon_1.ico
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "Puc-Lua-Installer", "Puc-Lua-Installer\Puc-Lua-Installer.wixproj", "{E9250037-15BE-4282-8DBA-97D18783DEB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{EEC198DE-6EF8-4D21-ADA0-E0F527331A82}"
+	ProjectSection(SolutionItems) = preProject
+		templates\Files-Template32.wxs = templates\Files-Template32.wxs
+		templates\pli-tools.ps1 = templates\pli-tools.ps1
+		templates\Setup-Template32.wxs = templates\Setup-Template32.wxs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9250037-15BE-4282-8DBA-97D18783DEB2}.Debug|x86.ActiveCfg = Debug|x86
+		{E9250037-15BE-4282-8DBA-97D18783DEB2}.Debug|x86.Build.0 = Debug|x86
+		{E9250037-15BE-4282-8DBA-97D18783DEB2}.Release|x86.ActiveCfg = Release|x86
+		{E9250037-15BE-4282-8DBA-97D18783DEB2}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EEC198DE-6EF8-4D21-ADA0-E0F527331A82} = {FA7894D2-2C0F-4133-96AF-F0CD65E0324E}
+	EndGlobalSection
+EndGlobal

@@ -1,2 +1,0 @@
-C:\Users\russh\git\PUC-Lua-Installer\PUC-Lua 32\bin\Debug\PUC-Lua 32.msi
-C:\Users\russh\git\PUC-Lua-Installer\PUC-Lua 32\bin\Debug\PUC-Lua 32.wixpdb

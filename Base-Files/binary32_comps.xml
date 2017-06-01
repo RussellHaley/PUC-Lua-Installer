@@ -1,9 +1,0 @@
-<Component Id="lua.exe_32" Guid="4fb97204-28e5-44b4-a625-c2a2f015afde">
-    <File Id="lua.exe_32" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\bin\lua.exe" KeyPath="yes" Checksum="yes"/>
-</Component>
-<Component Id="lua53.dll_32" Guid="13e07fd3-55d6-4ae4-b590-66325fea33ae">
-    <File Id="lua53.dll_32" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\bin\lua53.dll" KeyPath="yes" Checksum="yes"/>
-</Component>
-<Component Id="luac.exe_32" Guid="08b17cd8-1aed-4fb5-9df8-bba58acfa683">
-    <File Id="luac.exe_32" Source="C:\Users\russh\git\LuaBuilds\PrivateBuild\src\lua-5.3.4\src\bin\luac.exe" KeyPath="yes" Checksum="yes"/>
-</Component>

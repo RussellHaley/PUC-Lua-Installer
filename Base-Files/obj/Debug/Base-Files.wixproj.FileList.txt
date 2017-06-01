@@ -1,3 +1,0 @@
-obj\\Debug\Base-Files.wixproj.BindContentsFileListnull.txt
-obj\\Debug\Base-Files.wixproj.BindOutputsFileListnull.txt
-obj\\Debug\Base-Files.wixproj.BindBuiltOutputsFileListnull.txt

@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/PUC-Lua-Installer/v15/.suo
+/.vs/PUC-Lua 32/v15/.suo
+/Puc-Lua-Installer/obj/Debug
+/Puc-Lua-Installer/obj/Debug/Files.wixobj
+/Puc-Lua-Installer/bin/Debug/Puc_Lua_Installer.wixpdb
+/Puc-Lua-Installer/bin/Debug/Puc_Lua_Installer.wixpdb
