@@ -1,7 +1,6 @@
+### PUC-Lua Installer v1.1 (MinGW Build)
 
-PUC-Lua Installer v1.1 (MinGW Build)
-
-This project is an open source Windows installer for 32 Lua. 
+This project is an open source Windows installer for 32 Lua. The install scripts are licensed under the FreeBSD license, Lua is license under the MIT license. Copyright notice must be maintained if the install scripts are used under derivative works.
 
 Requirements:
 Microsoft .Net 3.5.1 (In Windows 8+ this must be "turned on" in Windows Features (Windows Key + type "Turn Windows Features" and the system will find it).
@@ -40,7 +39,7 @@ You will need 7-Zip to extract the archive.
 *Note: Alternatively, you could clone joedf/LuaBuilds and it gives you access to all the binaries and all the sources in one place. The over head is a bit extreme but I'm a lazy sod. That's why I created an installer ;)*
 
 
-2) Run the following commands in powershell (Note that # is a comment in powershell):
+2) Run the following commands in powershell (Note that # is a comment in powershell, '`' backtick is a line continuation):
 
 ```
 #1 Navigate to the dir and source the powershell script. This loads the script for execution.
