@@ -1,0 +1,15 @@
+<Component Id="lua.h_h" Guid="0055be83-0bef-42d2-a2c9-478d4e8b8301">
+    <File Id="lua.h_h" Source="N:\lua-temp\lua-5.3.4\src\lua.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lualib.h_h" Guid="2dc2a384-fc96-4e93-83ce-98070968e2ce">
+    <File Id="lualib.h_h" Source="N:\lua-temp\lua-5.3.4\src\lualib.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lauxlib.h_h" Guid="f2fb0b85-c565-498f-9940-3a908999b559">
+    <File Id="lauxlib.h_h" Source="N:\lua-temp\lua-5.3.4\src\lauxlib.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="luaconf.h_h" Guid="c0924b34-7d8d-41d7-a43c-b3e9b56a64a7">
+    <File Id="luaconf.h_h" Source="N:\lua-temp\lua-5.3.4\src\luaconf.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lua.hpp_h" Guid="2552591a-b1d0-47fe-9722-225795b4ed28">
+    <File Id="lua.hpp_h" Source="N:\lua-temp\lua-5.3.4\src\lua.hpp" KeyPath="yes" Checksum="yes"/>
+</Component>

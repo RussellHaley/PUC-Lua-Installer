@@ -34,8 +34,8 @@
 				%include_feature%
 			</Feature>
 					
-			<Feature Id="Binary32" Title="Lua 32 Bit Binary Files" Level="1">
-				%binary32_feature%
+			<Feature Id="Binaries" Title="Lua Bit Binary Files" Level="1">
+				%binary_feature%
 				<ComponentRef Id="libgcc_s_dw2_1.dll"/>
 				<ComponentRef Id="set_path"/>
 				<ComponentRef Id="ApplicationShortcut32"/>		

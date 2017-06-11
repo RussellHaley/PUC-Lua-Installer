@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+	<!-- TODO: Put your code here. -->
+
+  <!-- Product name as you want it to appear in Add/Remove Programs-->
+  <?if $(var.Platform) = x64 ?>
+  <?define ProductName = "PUC-Lua 64 bit" ?>
+  <?define Win64 = "yes" ?>
+  <?define BinDir = "bin64"?>
+  <?define PlatformProgramFilesFolder = "ProgramFiles64Folder" ?>
+  <?else ?>
+  <?define ProductName = "PUC-Lua 32 bit" ?>
+  <?define Win64 = "no" ?>
+  <?define BinDir = "bin"?>
+  <?define PlatformProgramFilesFolder = "ProgramFilesFolder" ?>
+  <?endif ?>
+  
+</Include>

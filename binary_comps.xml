@@ -1,0 +1,9 @@
+<Component Id="lua.exe" Guid="f5970e57-afc2-497a-a9af-37b747f64d04">
+    <File Id="lua.exe" Source="N:\lua-temp\lua-5.3.4\src\bin\$(var.Platform)\lua.exe" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lua53.dll" Guid="6406c7af-1530-4a10-a908-9c3be6c90705">
+    <File Id="lua53.dll" Source="N:\lua-temp\lua-5.3.4\src\bin\$(var.Platform)\lua53.dll" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="luac.exe" Guid="6e40df29-0a9b-409f-ae8b-f492f4b4ef6c">
+    <File Id="luac.exe" Source="N:\lua-temp\lua-5.3.4\src\bin\$(var.Platform)\luac.exe" KeyPath="yes" Checksum="yes"/>
+</Component>

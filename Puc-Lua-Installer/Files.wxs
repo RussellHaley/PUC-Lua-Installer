@@ -23,7 +23,7 @@
       </Component>
       <Component Id="set_path" Guid="aae704ce-93bb-4d56-b855-c1f441de3365">
         <CreateFolder/>
-        <Environment Id="PATH" Name="PATH" Value="[luabin32dir]" Permanent="yes" Part="last" Action="set" System="yes" />
+        <Environment Id="PATH" Name="PATH" Value="[luabin32dir]" Permanent="no" Part="last" Action="set" System="yes" />
       </Component>
     </DirectoryRef>
     <DirectoryRef Id="luaincludedir">

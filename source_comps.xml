@@ -1,0 +1,192 @@
+<Component Id="lapi.c" Guid="61cbccdc-4d63-4749-af32-bd3e3f9eb6db">
+    <File Id="lapi.c" Source="N:\lua-temp\lua-5.3.4\src\lapi.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lapi.h" Guid="394101d5-c8d2-4635-a602-ddafd5dddc4b">
+    <File Id="lapi.h" Source="N:\lua-temp\lua-5.3.4\src\lapi.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lauxlib.c" Guid="ccfe0b71-1674-49e1-b617-8542300f4433">
+    <File Id="lauxlib.c" Source="N:\lua-temp\lua-5.3.4\src\lauxlib.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lauxlib.h" Guid="b621dfd1-16f3-4e0c-a357-507c75dae57f">
+    <File Id="lauxlib.h" Source="N:\lua-temp\lua-5.3.4\src\lauxlib.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lbaselib.c" Guid="691e6d48-4868-462d-8516-5b8a240b34e5">
+    <File Id="lbaselib.c" Source="N:\lua-temp\lua-5.3.4\src\lbaselib.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lbitlib.c" Guid="47ca8f57-17e9-4fff-a2d8-8c3805a7431c">
+    <File Id="lbitlib.c" Source="N:\lua-temp\lua-5.3.4\src\lbitlib.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lcode.c" Guid="15f1e219-afeb-4d59-83ae-8d10aaadf91b">
+    <File Id="lcode.c" Source="N:\lua-temp\lua-5.3.4\src\lcode.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lcode.h" Guid="b516f539-4f4f-4702-bbf8-b2bbdae7827c">
+    <File Id="lcode.h" Source="N:\lua-temp\lua-5.3.4\src\lcode.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lcorolib.c" Guid="60442650-d342-4507-9377-1b0dfdaace8c">
+    <File Id="lcorolib.c" Source="N:\lua-temp\lua-5.3.4\src\lcorolib.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lctype.c" Guid="a2ab96ac-edad-42c4-b987-43e8d85f2dcc">
+    <File Id="lctype.c" Source="N:\lua-temp\lua-5.3.4\src\lctype.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lctype.h" Guid="983701bc-7eb2-45f7-affd-36118e7cd88c">
+    <File Id="lctype.h" Source="N:\lua-temp\lua-5.3.4\src\lctype.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="ldblib.c" Guid="e51a49ef-b40d-4426-b877-54caec2f897f">
+    <File Id="ldblib.c" Source="N:\lua-temp\lua-5.3.4\src\ldblib.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="ldebug.c" Guid="1b9d7592-c66e-4690-82e5-f0fc95829a52">
+    <File Id="ldebug.c" Source="N:\lua-temp\lua-5.3.4\src\ldebug.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="ldebug.h" Guid="3f7f69bd-85a8-46c9-b197-f167844780b2">
+    <File Id="ldebug.h" Source="N:\lua-temp\lua-5.3.4\src\ldebug.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="ldo.c" Guid="aa5c08d0-db54-4eae-9ade-54d00b69ff83">
+    <File Id="ldo.c" Source="N:\lua-temp\lua-5.3.4\src\ldo.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="ldo.h" Guid="16f45637-a605-4f24-b049-e73fcec2793d">
+    <File Id="ldo.h" Source="N:\lua-temp\lua-5.3.4\src\ldo.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="ldump.c" Guid="5f64f2f1-137f-4dff-874a-836cedd01633">
+    <File Id="ldump.c" Source="N:\lua-temp\lua-5.3.4\src\ldump.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lfunc.c" Guid="1088c40a-d024-4955-91d5-ff3ce0614e73">
+    <File Id="lfunc.c" Source="N:\lua-temp\lua-5.3.4\src\lfunc.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lfunc.h" Guid="742d2216-5e1d-4a37-aba0-d8ba50613a12">
+    <File Id="lfunc.h" Source="N:\lua-temp\lua-5.3.4\src\lfunc.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lgc.c" Guid="0c1e4e57-dcfa-493f-977b-f79a5513e7a7">
+    <File Id="lgc.c" Source="N:\lua-temp\lua-5.3.4\src\lgc.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lgc.h" Guid="2ae557eb-4926-4bdb-a66e-e49cd7cb9ccf">
+    <File Id="lgc.h" Source="N:\lua-temp\lua-5.3.4\src\lgc.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="linit.c" Guid="8766f892-7f5b-4f21-b6be-9c667c1fba2d">
+    <File Id="linit.c" Source="N:\lua-temp\lua-5.3.4\src\linit.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="liolib.c" Guid="3f7023e8-7f6d-4faa-a582-bf84873437eb">
+    <File Id="liolib.c" Source="N:\lua-temp\lua-5.3.4\src\liolib.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="llex.c" Guid="9963b0fb-babd-4e79-9fed-1c2e8a980cd0">
+    <File Id="llex.c" Source="N:\lua-temp\lua-5.3.4\src\llex.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="llex.h" Guid="ab74b58e-3555-4866-bdf2-1fbda6d86663">
+    <File Id="llex.h" Source="N:\lua-temp\lua-5.3.4\src\llex.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="llimits.h" Guid="8c3d0977-a5e0-48f9-8cfc-db3f52af7f40">
+    <File Id="llimits.h" Source="N:\lua-temp\lua-5.3.4\src\llimits.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lmathlib.c" Guid="359c869b-93ab-4e0c-98bc-ed6e87d3e22d">
+    <File Id="lmathlib.c" Source="N:\lua-temp\lua-5.3.4\src\lmathlib.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lmem.c" Guid="4829977b-574e-444a-b76f-ef48d1c3d777">
+    <File Id="lmem.c" Source="N:\lua-temp\lua-5.3.4\src\lmem.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lmem.h" Guid="455c6861-22bf-453b-98ea-ab895ee2e1aa">
+    <File Id="lmem.h" Source="N:\lua-temp\lua-5.3.4\src\lmem.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="loadlib.c" Guid="be9d6314-2a11-4c78-bade-36da060364c4">
+    <File Id="loadlib.c" Source="N:\lua-temp\lua-5.3.4\src\loadlib.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lobject.c" Guid="4cffd859-bb1a-46e9-88ed-609174f2c89f">
+    <File Id="lobject.c" Source="N:\lua-temp\lua-5.3.4\src\lobject.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lobject.h" Guid="ff72b040-5a9f-4fc8-b087-99e1f9e94624">
+    <File Id="lobject.h" Source="N:\lua-temp\lua-5.3.4\src\lobject.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lopcodes.c" Guid="68fa3bfa-16c7-4517-93f7-efc1a6567486">
+    <File Id="lopcodes.c" Source="N:\lua-temp\lua-5.3.4\src\lopcodes.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lopcodes.h" Guid="55c72b17-a146-4a9c-9a9f-ffaca301a40c">
+    <File Id="lopcodes.h" Source="N:\lua-temp\lua-5.3.4\src\lopcodes.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="loslib.c" Guid="6ebd7c27-213f-4b9b-ae5b-e84f1e50efa8">
+    <File Id="loslib.c" Source="N:\lua-temp\lua-5.3.4\src\loslib.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lparser.c" Guid="c79ae14a-4b6c-49c5-ba60-566a087ae1c8">
+    <File Id="lparser.c" Source="N:\lua-temp\lua-5.3.4\src\lparser.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lparser.h" Guid="8bb7cf14-e7c0-4340-959f-ac683366c745">
+    <File Id="lparser.h" Source="N:\lua-temp\lua-5.3.4\src\lparser.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lprefix.h" Guid="0c4db6c6-6ad5-47ee-8ce9-800f1cb73315">
+    <File Id="lprefix.h" Source="N:\lua-temp\lua-5.3.4\src\lprefix.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lstate.c" Guid="2b4d94ad-cbea-4ace-8993-91fba7edb71e">
+    <File Id="lstate.c" Source="N:\lua-temp\lua-5.3.4\src\lstate.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lstate.h" Guid="2ee712e7-52f4-41fd-9275-6a19865ab774">
+    <File Id="lstate.h" Source="N:\lua-temp\lua-5.3.4\src\lstate.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lstring.c" Guid="a615eba1-1180-489c-b6c6-b00e10633a4e">
+    <File Id="lstring.c" Source="N:\lua-temp\lua-5.3.4\src\lstring.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lstring.h" Guid="fb37f70a-f0a4-472b-a77a-919e0a7c4887">
+    <File Id="lstring.h" Source="N:\lua-temp\lua-5.3.4\src\lstring.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lstrlib.c" Guid="e8469c43-fc61-43b7-a4ef-5088d29a99d8">
+    <File Id="lstrlib.c" Source="N:\lua-temp\lua-5.3.4\src\lstrlib.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="ltable.c" Guid="2d0285ef-d5a1-4b12-9a02-492bd02419f9">
+    <File Id="ltable.c" Source="N:\lua-temp\lua-5.3.4\src\ltable.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="ltable.h" Guid="cd3de246-d5a7-434d-a003-2e4145c146ce">
+    <File Id="ltable.h" Source="N:\lua-temp\lua-5.3.4\src\ltable.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="ltablib.c" Guid="b679372c-da9d-44a3-88b9-71d03a66339c">
+    <File Id="ltablib.c" Source="N:\lua-temp\lua-5.3.4\src\ltablib.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="ltm.c" Guid="33277f5e-35fe-4842-8339-c4da9df98eb0">
+    <File Id="ltm.c" Source="N:\lua-temp\lua-5.3.4\src\ltm.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="ltm.h" Guid="0de222a9-4ab9-4982-9e13-c99cf6d67ef7">
+    <File Id="ltm.h" Source="N:\lua-temp\lua-5.3.4\src\ltm.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lua.c" Guid="6a8b0d17-84f0-4db4-93f7-b078e7ef8a42">
+    <File Id="lua.c" Source="N:\lua-temp\lua-5.3.4\src\lua.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lua.h" Guid="f05d56aa-3cf9-4d24-b66d-2d14b6be96ac">
+    <File Id="lua.h" Source="N:\lua-temp\lua-5.3.4\src\lua.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lua.hpp" Guid="daa41aa2-8712-4673-b560-eb98643a0d7b">
+    <File Id="lua.hpp" Source="N:\lua-temp\lua-5.3.4\src\lua.hpp" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="luac.c" Guid="e861386a-7215-44d2-900f-b949ad946b7c">
+    <File Id="luac.c" Source="N:\lua-temp\lua-5.3.4\src\luac.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="luaconf.h" Guid="bc850219-0a2e-4b66-a8b0-2ad2ede75b41">
+    <File Id="luaconf.h" Source="N:\lua-temp\lua-5.3.4\src\luaconf.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lualib.h" Guid="7569f9d4-57a3-47ae-bc80-e712a1196307">
+    <File Id="lualib.h" Source="N:\lua-temp\lua-5.3.4\src\lualib.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lundump.c" Guid="5cc97169-8bf8-4c0c-bc96-0a7e47c07cf2">
+    <File Id="lundump.c" Source="N:\lua-temp\lua-5.3.4\src\lundump.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lundump.h" Guid="e7d4527e-5442-4bb7-98ab-e7f2323c2cec">
+    <File Id="lundump.h" Source="N:\lua-temp\lua-5.3.4\src\lundump.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lutf8lib.c" Guid="56c4ab84-8653-4147-81a8-50512e8676e3">
+    <File Id="lutf8lib.c" Source="N:\lua-temp\lua-5.3.4\src\lutf8lib.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lvm.c" Guid="cd7eb6fd-1e64-4131-8221-bf9a94ec48b4">
+    <File Id="lvm.c" Source="N:\lua-temp\lua-5.3.4\src\lvm.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lvm.h" Guid="9a7623a3-0853-4c99-8eb5-207b9c6f1066">
+    <File Id="lvm.h" Source="N:\lua-temp\lua-5.3.4\src\lvm.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lzio.c" Guid="e1d19dae-12e6-416b-9270-f8123fb93243">
+    <File Id="lzio.c" Source="N:\lua-temp\lua-5.3.4\src\lzio.c" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="lzio.h" Guid="04d9fcd0-12fb-4455-9b73-b54cae69d76c">
+    <File Id="lzio.h" Source="N:\lua-temp\lua-5.3.4\src\lzio.h" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="makefile" Guid="9becadc4-5df1-4c87-8f11-cc0ad51afa75">
+    <File Id="makefile" Source="N:\lua-temp\lua-5.3.4\src\makefile" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="makefile.original.old" Guid="ba51785a-ee9a-4db9-ae69-672566fc704c">
+    <File Id="makefile.original.old" Source="N:\lua-temp\lua-5.3.4\src\makefile.original.old" KeyPath="yes" Checksum="yes"/>
+</Component>
+<Component Id="Makefile_x86" Guid="2bfaf072-e439-4925-91db-a2fee90fe069">
+    <File Id="Makefile_x86" Source="N:\lua-temp\lua-5.3.4\src\Makefile_x86" KeyPath="yes" Checksum="yes"/>
+</Component>
